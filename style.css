@@ -1,0 +1,66 @@
+
+.navbar{
+    position: absolute;  
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    background-image: linear-gradient(to right, red,  blue);
+  }
+
+  body{
+    background-image: linear-gradient(to bottom redm blue );
+  }
+
+header{
+    background-color: aquamarine;
+    background-size: cover;
+}
+
+ .logo{
+    padding-top:5px;
+    margin-left: 5px;
+}
+
+ .nav-link {
+    align-items: center;
+    position: relative;
+}
+a{
+  font-size: 20px;
+}
+.navbar .active {
+    color: rgb(243, 0, 0);
+    margin: 0 20px;  
+}
+.first{
+    color: aqua;
+    margin: 0 20px;
+}
+.navbar .second {
+    color: rgb(255, 111, 0);
+    font-weight: 100px;
+    margin: 0 20px;  
+}
+input{
+    height: 30px;
+    width: 200px;
+}
+.end{
+    width: 30px;
+}
+.div{
+    margin: 0 20px;
+    color: antiquewhite;
+}
+.dis{
+    color: aquamarine;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
